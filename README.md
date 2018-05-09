@@ -1,6 +1,9 @@
 # WebInterface
 
+[![Build Status](https://travis-ci.org/YZU-DL-Lab/font-to-font-web-interface.svg?branch=master)](https://travis-ci.org/YZU-DL-Lab/font-to-font-web-interface)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+
 
 ## Development server
 
