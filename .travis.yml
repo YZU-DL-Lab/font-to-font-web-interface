@@ -1,0 +1,19 @@
+language: node_js
+sudo: required
+node_js:
+  - "10.1.0"
+
+before_install:
+  - npm install -g @angular/cli
+install: npm install
+script: 
+  ng build --prod --base-href https://yzu-dl-lab.github.io/font-to-font-web-interface/
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local-dir: ./dist/web-interface
+  on:
+    branch: master
