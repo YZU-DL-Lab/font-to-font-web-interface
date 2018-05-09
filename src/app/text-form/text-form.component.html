@@ -1,0 +1,18 @@
+<mat-card [class.text-model]="image == null" >
+  <mat-card-title>
+    字體產生器
+  </mat-card-title>
+
+  <mat-card-content>
+    <mat-form-field *ngIf="image == null" >
+        <textarea class = "textarea" [formControl]="text" matInput  matTextareaAutosize color="primary" required placeholder="請輸入想產生的文字" ></textarea>
+    </mat-form-field>
+  </mat-card-content>
+  <img mat-card-image *ngIf="image"  src={{image}} >
+  <mat-card-actions class = "flex-row">
+    <button mat-raised-button  *ngIf="image" color="warn" (click)="reset()">重設</button>
+    <button mat-raised-button  *ngIf="image == null" color="primary" (click)="getImage()">送出</button>
+  </mat-card-actions>
+
+
+</mat-card>

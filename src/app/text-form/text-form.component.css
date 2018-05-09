@@ -1,0 +1,21 @@
+.mat-card{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    /* transform:translateX(50%); */
+}
+
+.text-model{
+    max-width: 250px;
+}
+
+.flex-row{  
+    display: flex;
+    justify-content:space-around;
+}
+
+.textarea{
+    font-size: 16px;
+    min-height:100px;
+}
+
