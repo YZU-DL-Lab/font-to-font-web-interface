@@ -6,7 +6,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class TextToImgService {
 
-  url = 'http://140.138.155.230:5000/api/v1/text-to-image';
+  url = 'http://140.138.155.230/api/v1/text-to-image';
 
   constructor(
     private http: HttpClient

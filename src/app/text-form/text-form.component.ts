@@ -28,7 +28,7 @@ export class TextFormComponent implements OnInit {
     };
 
     this.tti.getImage(send_data).subscribe(
-      data => this.image =  'http://140.138.155.230:5000/api/v1/text-to-image/' + data
+      data => this.image =  'http://140.138.155.230/api/v1/text-to-image/' + data
     );
   }
 
