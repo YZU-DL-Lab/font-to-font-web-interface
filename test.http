@@ -1,5 +1,0 @@
-POST http://140.138.155.230:5000/api/v1/text-to-image
-
-GET  http://140.138.155.230:5000/api/v1/text-to-image/five
-
-GET  http://140.138.155.230:5000/api/v1/text-to-image
